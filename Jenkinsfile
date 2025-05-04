@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-    maven 'Maven-3.9.4'  // matches Global Tool Config name
+    maven 'jenkins-maven'  // matches Global Tool Config name
   }
 
     environment {
